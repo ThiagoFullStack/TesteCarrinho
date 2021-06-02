@@ -1,0 +1,435 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
+}
+#crr{
+  width: 100px;
+  height: 100px;
+}
+.container{
+  border-top: 1px solid rgb(179, 172, 172);
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding-top: -40px;
+  padding: 5px;
+}
+
+/* ===========  MORANGO ================ */
+#mg{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(179, 172, 172);
+  padding: 10px;
+  margin: 10px;
+  }
+  .trufas{
+  font-size: 25px;
+  margin-right: 610px;
+  top: -220px;
+  position: relative;
+}
+  .vl{
+  color: #9b9898;
+  margin-left: 255px;
+  top: -210px;
+  position: relative;
+}
+.pr{
+  font-size: 25px;
+  color: #020202;
+  margin-left: 255px;
+  top: -230px;
+  position: relative;
+}
+#valor{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 255px;
+  margin-top: -240px;
+  padding: 3px;
+}
+
+/* ===========  COCÔ ================ */
+
+#cc{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(179, 172, 172);
+  padding: 10px;
+  margin: 10px;
+}
+.coc{
+  margin-top: -150px;
+}
+.trufas1{
+  font-size: 25px;
+  margin-right: 660px;
+  top: 200px;
+  position: relative;
+}
+.vl1{
+  color: #9b9898;
+  margin-left: 255px;
+  top: 200px;
+  position: relative;
+}
+.pr1{
+  font-size: 25px;
+  color: #020202;
+  margin-left: 255px;
+  top: 180px;
+  position: relative;
+}
+#valor1{
+  margin-left: 12px;
+  top: 590px;
+  padding: 3px;
+  position: absolute;
+}
+
+
+/* ===========  CHOCOLATE ================ */
+
+
+#chot{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(179, 172, 172);
+  padding: 10px;
+  margin: 10px;
+}
+.cht{
+  margin-top: -190px;
+}
+.trufas2{
+  font-size: 25px;
+  margin-right: 600px;
+  top: 200px;
+  position: relative;
+}
+.vl2{
+  color: #9b9898;
+  margin-left: 255px;
+  top: 200px;
+  position: relative;
+}
+.pr2{
+  font-size: 25px;
+  color: #020202;
+  margin-left: 255px;
+  top: 180px;
+  position: relative;
+}
+#valor2{
+  margin-left: 12px;
+  top: 820px;
+  padding: 3px;
+  position: absolute;
+}
+
+/* ===========  MARACUJÁ ================ */
+
+#mac{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(179, 172, 172);
+  padding: 10px;
+  margin: 10px;
+}
+#mac{
+  margin-top: -180px;
+}
+.trufas3{
+  font-size: 25px;
+  margin-right: 600px;
+  top: 10px;
+  position: relative;
+}
+.vl3{
+  color: #9b9898;
+  margin-left: 257px;
+  top: 10px;
+  position: relative;
+}
+.pr3{
+  font-size: 25px;
+  color: #020202;
+  margin-left: 257px;
+  top: -10px;
+  position: relative;
+}
+#valor3{
+  margin-left: 12px;
+  top: 1050px;
+  padding: 3px;
+  position: absolute;
+}
+#total{
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+  font-size: 45px;
+  margin-left: 850px;
+}
+.preco{
+  font-size: 45px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  border-top: 1px solid #9b9898;
+  border-bottom: 1px solid #9b9898;
+}
+#tl{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  margin-left: 40px;
+  
+}
+#parabens{
+font-size: 55px;
+  margin-top: 180px;
+  margin-left: -1050px;
+  padding: 20px;
+  border-radius: 45px;
+  color: #227903;
+  background-color: #a2f083dd;
+}
+.bt{
+  text-align: center;
+} 
+#finish{
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #1282eb;
+  border: none;
+}
+
+  @media(max-width: 1024px){
+
+/* INDEX.HTML /* Media Queries / 1024 */
+
+.trufas ,.trufas1 ,.trufas2 , .trufas3 {
+  margin-right: 270px;
+}
+.trufas1 {
+  margin-right: 330px;
+}
+#total{
+  padding: 50px;
+  font-size: 45px;
+  margin-top: -10px;
+  margin-left: 450px;
+}
+#tl{
+  margin-top: 65px;
+  margin-left: 60px;
+}
+#parabens{
+  font-size: 45px;
+  margin-top: 180px;
+  margin-left: -750px;
+  padding: 20px;
+  border-radius: 45px;
+  color: #227903;
+  background-color: #a2f083dd;
+}
+}
+
+  @media(max-width: 768px){
+
+  /* INDEX.HTML /* Media Queries / 768 */
+
+  .trufas ,.trufas1 ,.trufas2 , .trufas3 {
+  margin-right: 20px;
+}
+.trufas1 {
+  margin-right: 70px;
+}
+#total{
+  padding: 50px;
+  font-size: 45px;
+  margin-top: 5px;
+  margin-left: 320px;
+}
+#tl{
+  margin-top: 65px;
+  margin-left: 60px;
+}
+#parabens{
+  font-size: 35px;
+  margin-top: 180px;
+  margin-left: -700px;
+  padding: 20px;
+  border-radius: 45px;
+  color: #227903;
+  background-color: #a2f083dd;
+}
+}
+  @media(max-width: 360px){
+
+  /* INDEX.HTML /* Media Queries / 360 */
+  header{
+  margin-left: 20px;
+}
+.container{
+  float: left;
+}
+#crr{
+  margin-left: 80px;
+}
+#mg{
+  width: 160px;
+  height: 150px;
+}
+#cc{
+  width: 160px;
+  height: 150px;
+}
+.coc{
+  margin-top: -110px;
+}
+#chot{
+  width: 160px;
+  height: 150px;
+}
+.cht{
+  margin-top: -170px;
+}
+#mac{
+  width: 160px;
+  height: 150px;
+}
+.mc{
+  margin-top: 10px;
+}
+.trufas {
+  font-size: 20px;
+  left: 50px;
+  top: -170px;
+  margin-left: 140px;
+}
+.vl{
+  top: -190px;
+  margin-left: 210px;
+}
+.pr{
+  top: -210px;
+  margin-left: 210px;
+}
+#valor{
+  padding: 0px;
+  top: 10px;
+  margin-left: 202px;
+
+}
+/*  */
+.trufas1 {
+  font-size: 20px;
+  left: 50px;
+  top: 190px;
+  margin-left: 150px;
+}
+.vl1{
+  top: 170px;
+  margin-left: 210px;
+}
+.pr1{
+  top: 150px;
+  margin-left: 210px;
+}
+#valor1{
+  padding: 0px;
+  top: 550px;
+  margin-left: -1px;
+
+}
+/*  */
+.trufas2 {
+  font-size: 20px;
+  left: 50px;
+  top: 190px;
+  margin-left: 150px;
+}
+.vl2{
+    top: 170px;
+  margin-left: 210px;
+}
+.pr2{
+    top: 150px;
+  margin-left: 210px;
+}
+  #valor2{
+  padding: 0px;
+  top: 740px;
+  margin-left: -1px;
+ 
+}
+ /*  */
+ .trufas3 {
+  font-size: 20px;
+  left: 50px;
+  top: 10px;
+  margin-left: 150px;
+}
+.vl3{
+  top: -10px;
+margin-left: 212px;
+}
+.pr3{
+  top: -30px;
+margin-left: 210px;
+}
+#valor3{
+  padding: 0px;
+  top: 930px;
+  margin-left: -1px;
+}
+  
+#total{
+  padding: 5px;
+  font-size: 45px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+#tl{
+  margin-top: 65px;
+  margin-left: 10px;
+
+}
+#parabens{
+  font-size: 20px;
+  margin-top: 180px;
+  margin-left: -376px;
+  padding: 20px;
+  border-radius: 45px;
+  color: #227903;
+  background-color: #a2f083dd;
+}
+.bt{
+  text-align: center;
+} 
+#finish{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #1282eb;
+  border: none;
+}
+}

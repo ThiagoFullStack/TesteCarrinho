@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <title>Carrinho</title>
+</head>
+<body>
+  <header>
+  <h1><img id="crr" src="./css/images/carrinho.png">Meu Carrinho</h1>
+  </header>
+<div class="container">
+<div>
+    <img id="mg" src="./css/images/morango.png">
+    <h1 class="trufas"> Trufa de Morango </h1>
+    <p class="vl">R$ 3,00</p>
+    <p class="pr">R$ 2,30</p>
+    <input id="valor"  type="number" placeholder="  Unidades de Morango">
+</div>
+<div class="coc">
+    <h1 class="trufas1"> Trufa de Coco  </h1>
+    <p class="vl1">R$ 3,00</p>
+    <p class="pr1">R$ 2,40</p>
+    <img id="cc" src="./css/images/coco.png"> 
+    <input id="valor1"  type="number" placeholder="  Unidades de Coco">
+</div>
+<div class="cht">
+    <h1 class="trufas2"> Trufa de chocolate  </h1>
+    <p class="vl2">R$ 3,00</p>
+    <p class="pr2">R$ 2,50</p>
+    <img id="chot" src="./css/images/chocolate.png"> 
+    <input id="valor2"  type="number" placeholder="  Unidades de Chocolate">
+</div>
+<div class="mc">
+    <h1 class="trufas3"> Trufa de Maracujá </h1>
+    <p class="vl3">R$ 3,00</p>
+    <p class="pr3">R$ 2,20</p>
+    <img id="mac" src="./css/images/maracuja.png"> 
+  <input id="valor3"  type="number" placeholder="  Unidades de Maracujá"> 
+</div>
+<br />
+<br />
+<br />
+<div class="preco">
+    <div id="tl">Total</div>
+    <div id="total">R$</div>
+    <div style="background-color: white;" id="parabens"></div>
+    <br />
+    <br />
+    <br />
+</div>
+    <br />
+    <br />
+    <br />
+<div class="bt">
+  <button id="finish" onclick="calcular()">Finalizar compra</button>
+</div>
+    <br />
+    <br />
+    <br />
+</div>
+<script src="./scripts/script.js"></script>
+
+</body>
+</html>
